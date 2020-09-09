@@ -18,7 +18,7 @@ width,height=map(int,input().split())
 for i in images:
     photo = Image.open(i)
     #タプル形式で入力
-    photo_mini=photo.resize(width,height)
+    photo_mini=photo.resize((width,height))
 
     #title取得
     title,ext=os.path.splitext(i)
