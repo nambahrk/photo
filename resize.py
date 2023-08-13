@@ -12,7 +12,7 @@ photos = glob.glob("*.jpg")
 
 for i in photos:
     photo = Image.open(i)
-    photo_mini=photo.resize((640,360))   #ここで大きさを決める(横、縦)
+    photo_mini=photo.resize((800,600))   #ここで大きさを決める(横、縦)
 
     #title取得
     title,ext=os.path.splitext(i)
