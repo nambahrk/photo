@@ -26,4 +26,5 @@ if __name__ == "__main__":
         elif operation == "topng":
             topng()       
         else:
-            print("Invalid operation. Valid operations: blur, bright, compress, grayscale, monochrome, rotate")
+            print("Invalid operation. Valid operations: tojpg topng")
+
