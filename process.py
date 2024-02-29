@@ -53,7 +53,7 @@ def anime(img):
 if __name__ == "__main__":
     if len(sys.argv) != 3:
         print("Usage: python process.py input_image operation")
-        print("Valid operations: blur, bright, compress, grayscale, monochrome, rotate, anime, opacity")
+        print("Valid operations: blur, bright, compress, grayscale, monochrome, rotate, anime")
     else:
         input_image_path = sys.argv[1]
         operation = sys.argv[2]
@@ -76,5 +76,5 @@ if __name__ == "__main__":
         elif operation == "anime":
             anime(img2)    
         else:
-            print("Invalid operation. Valid operations: blur, bright, compress, grayscale, monochrome, rotate, anime, opacity")
+            print("Invalid operation. Valid operations: blur, bright, compress, grayscale, monochrome, rotate, anime")
 
